@@ -44,7 +44,7 @@ knex.schema.dropTableIfExists('messages').then(() => {
 app.on('connection', connection => {
   app.channel('everybody').join(connection);
 });
-app.publish((data, hook) => {
+app.service('messages').publish((data, hook) => {
   return app.channel('everybody');
 });
 
