@@ -1,0 +1,20 @@
+{
+  "name": "featherjsbasicexample",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Sirius A Strebe <siriusastrebe@gmail.com> (https://github.com/siriusastrebe)",
+  "license": "ISC",
+  "dependencies": {
+    "@feathersjs/errors": "^4.5.11",
+    "@feathersjs/express": "^4.5.2",
+    "@feathersjs/feathers": "^4.5.2",
+    "@feathersjs/socketio": "^4.5.2",
+    "feathers-knex": "7.1.1",
+    "knex": "0.21.13",
+    "pg": "^8.5.1"
+  }
+}
